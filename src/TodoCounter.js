@@ -4,10 +4,10 @@ import React from "react";
 //   backgroundColor: "yellow",
 // };
 import "./TodoCounter.css";
-function TodoCounter({ totalTodos, completed }) {
+function TodoCounter({ total, completed }) {
   return (
     <h2 className="TodoCounter">
-      Has completado {completed} de {totalTodos}} TO DOs
+      Has completado {completed} de {total} TO DOs
     </h2>
   );
 }
